@@ -1,0 +1,19 @@
+.page{
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    font-weight: 400;
+    max-width: 1280px;
+    min-width: 320px;
+    display: grid;
+    justify-content: center;
+    padding: 28px 48px 24px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1152px) {
+    .page{
+        padding-left: 0;
+        padding-right: 0;
+    }    
+}

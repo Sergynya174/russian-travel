@@ -1,0 +1,27 @@
+.footer{
+    max-width: 1184px;
+    margin-top: 92px;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1152px) {
+    .footer{
+        max-width: 1024px;
+    }    
+}
+
+@media screen and (max-width: 896px) {
+    .footer{
+        max-width: 768px;
+    }    
+}
+
+@media screen and (max-width: 544px) {
+    .footer{
+        max-width: 186px;
+        flex-direction: column;
+        margin-left: 16px;
+    }    
+}

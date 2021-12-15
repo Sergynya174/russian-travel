@@ -1,0 +1,26 @@
+.header{
+    max-width: 1184px;
+    display: flex;
+    font-family: 'Inter';
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1152px) {
+    .header{
+        max-width: 928px;
+    }    
+}
+
+@media screen and (max-width: 896px) {
+    .header{
+        max-width: 720px;
+    }    
+}
+
+@media screen and (max-width: 544px) {
+    .header{
+        width: 288px;
+        margin: 0 auto 56px;
+    }    
+}

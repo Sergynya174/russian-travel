@@ -1,0 +1,29 @@
+.place{
+    max-width: 984px;
+    font-family: 'Inter';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 40px;
+}
+
+@media screen and (max-width: 1152px) {
+    .place{
+        max-width: 928px;
+        grid-column-gap: 32px;
+    }    
+}
+
+@media screen and (max-width: 896px) {
+    .place{
+        max-width: 720px;
+        grid-column-gap: 28px;
+    }    
+}
+
+@media screen and (max-width: 544px) {
+    .place{
+        max-width: 320px;
+        grid-row-gap: 32px;
+        grid-template-columns: 1fr;
+    }    
+}

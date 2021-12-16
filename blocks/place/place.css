@@ -1,6 +1,5 @@
 .place{
     max-width: 984px;
-    font-family: 'Inter';
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 48px 40px;

@@ -1,7 +1,6 @@
 .header{
     max-width: 1184px;
     display: flex;
-    font-family: 'Inter';
     justify-content: space-between;
     margin-bottom: 56px;
 }

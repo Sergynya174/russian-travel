@@ -3,29 +3,29 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 284px);
     grid-template-rows: repeat(auto-fit, 213px);
-    gap: 16px 16px;
+    gap: 16px;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1200px) {
     .photo-grid{
         max-width: 928px;
         grid-template-columns: repeat(auto-fit, 300px);
         grid-template-rows: repeat(auto-fit, 225px);
-        gap: 14px 14px;
+        gap: 14px;
     }    
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 968px) {
     .photo-grid{
         max-width: 720px;
         grid-template-columns: repeat(auto-fit, 352px);
         grid-template-rows: repeat(auto-fit, 264px);
-        gap: 16px 16px;
+        gap: 16px;
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 740px) {
     .photo-grid{
         max-width: 288px;
         grid-template-columns: repeat(auto-fit, 288px);

@@ -3,20 +3,26 @@
     margin-left: 100px;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1200px) {
     .intro{
         margin-left: 0;
     }    
 }
 
-@media screen and (max-width: 896px) {
+/*@media screen and (max-width: 1152px) {
+    .intro{
+        margin-left: 48px;
+   }    
+}*/
+
+@media screen and (max-width: 968px) {
     .intro{
         max-width: 720px;
         margin-left: 24px;
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 730px) {
     .intro{
         max-width: 288px;
         margin-left: 16px;

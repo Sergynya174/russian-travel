@@ -19,5 +19,7 @@
 @media screen and (max-width: 544px) {
     .place__image{
         max-width: 320px;
+        order: 3;
+        grid-row: auto;
     }    
 }

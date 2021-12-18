@@ -1,5 +1,4 @@
 .cover__overlay{
-    max-width: 1184px;
     min-height: 740px;
     text-decoration: none;
     background: url(../../../sprint-3-images/cover-trains.jpg);
@@ -12,6 +11,7 @@
     position: relative;
     padding: 0;
     z-index: 1;
+    background-position: center;
 }
 
 .cover__overlay::before{
@@ -33,21 +33,18 @@
 
 @media screen and (max-width: 1152px) {
     .cover__overlay{
-        max-width: 1024px;
         min-height: 640px;
     }    
 }
 
 @media screen and (max-width: 896px) {
     .cover__overlay{
-        max-width: 768px;
         min-height: 480px;
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 730px) {
     .cover__overlay{
-        max-width: 320px;
         min-height: 200px;
     }    
 }

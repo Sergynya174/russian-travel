@@ -2,9 +2,10 @@
     max-width: 186px;
     font-size: 14px;
     line-height: 16px;
+    margin: 0;
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 730px) {
     .footer__copyright{
         margin: 0;
     }    

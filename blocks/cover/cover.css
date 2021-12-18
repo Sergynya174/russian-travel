@@ -1,21 +1,3 @@
 .cover{
     max-width: 1184px;
 }
-
-@media screen and (max-width: 1152px) {
-    .cover{
-        max-width: 1024px;
-    }    
-}
-
-@media screen and (max-width: 896px) {
-    .cover{
-        max-width: 768px;
-    }    
-}
-
-@media screen and (max-width: 544px) {
-    .cover{
-        max-width: 320px;
-    }    
-}

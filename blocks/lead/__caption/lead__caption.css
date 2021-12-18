@@ -4,6 +4,7 @@
     line-height: 14px;
     font-weight: 400;
     margin: 0;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 896px) {
@@ -12,7 +13,7 @@
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 720px) {
     .lead__caption{
         margin-left: 16px;
     }    

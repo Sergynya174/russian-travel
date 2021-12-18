@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel='stylesheet' href='./styles/index.css'>
+        <link rel='stylesheet' href='./pages/index.css'>
         <title>Russian-travel</title>
     </head>
     <body class='page'>
@@ -19,41 +19,43 @@
             <section class='lead'>
                 <h1 class='lead__title'>Путешествия по России</h1>
                 <h2 class='lead__subtitle'>Настоящая страна не в выпусках новостей, а здесь.</h2>
-                <img class='lead__image' src='./sprint-3-images/lead-polka.jpg' alt='Ваша полка'>
-                <p class='lead__caption'>ваша полка — верхняя</p>
+                <figure class='lead__figure'>
+                    <img class='lead__image' src='./sprint-3-images/lead-polka.jpg' alt='Ваша полка'>
+                    <figcaption class='lead__caption'>ваша полка — верхняя</figcaption>
+                </figure>
             </section>
  
             <section class='intro'>
                 <h2 class='intro__title'>Чего мы там не видели?</h2>
                 <p class='intro__text'>По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class='intro__list'>
-                    <li><span class='intro__list intro__list_accent'>Часовых поясов</span> 11</li>
-                    <li><span class='intro__list intro__list_accent'>Объектов природного наследия ЮНЕСКО</span> 12</li>
-                    <li><span class='intro__list intro__list_accent'>Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                    <li><span class='intro__list intro__list_accent'>Природных заповедников</span> 105</li>
-                    <li><span class='intro__list intro__list_accent'>Аэропортов</span> 241</li>
+                    <li><span class='intro__item'>Часовых поясов</span> 11</li>
+                    <li><span class='intro__item'>Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li><span class='intro__item'>Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li><span class='intro__item'>Природных заповедников</span> 105</li>
+                    <li><span class='intro__item'>Аэропортов</span> 241</li>
                 </ul>
             </section>
  
             <section class='photo-grid'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-train.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-atharva-tulsi.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-tuman.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-sochi.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-arisa.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-baikal.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-elbrus.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kondratiev.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kamchatka-1.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kamchatka-2.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-baikal-2.jpg' alt='Катинка'>
-                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-ergaki.jpg' alt='Катинка'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-train.jpg' alt='Поезд'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-atharva-tulsi.jpg' alt='Атхарваведа'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-tuman.jpg' alt='Туман'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-sochi.jpg' alt='Сочи'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-arisa.jpg' alt='Колесо'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-baikal.jpg' alt='Байкал'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-elbrus.jpg' alt='Эльбрус'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kondratiev.jpg' alt='Знак'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kamchatka-1.jpg' alt='Камчатка-1'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-kamchatka-2.jpg' alt='Камчатка-2'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-baikal-2.jpg' alt='Байкал-2'>
+                <img class='photo-grid__item' src='./sprint-3-images/photo-grid-ergaki.jpg' alt='Ергаки'>
             </section>
  
             <section class='places'>
-                <div class='place'>
+                <article class='place'>
                     <h2 class='place__title'>Куршская коса</h2>
-                    <img class='place__image' src='./sprint-3-images/place-kosa.jpg' alt='Картинка'>
+                    <img class='place__image' src='./sprint-3-images/place-kosa.jpg' alt='Куршская коса'>
                     <div class='place__website'>
                         <p class='place__url-heading'>URL</p>
                         <a class='place__link' href='http://park-kosa.ru' target='_blank'>park-kosa.ru</a>
@@ -69,10 +71,10 @@
                             и запах стального, прохладного моря.
                         </p>
                     </div>
-                </div>
-                <div class='place'>
+                </article>
+                <article class='place'>
                     <h2 class='place__title'>Кольский</h2>
-                    <img class='place__image' src='./sprint-3-images/place-kolsky.jpg' alt='Картинка'>
+                    <img class='place__image' src='./sprint-3-images/place-kolsky.jpg' alt='Кольский'>
                     <div class='place__website'>
                         <p class='place__url-heading'>URL</p>
                         <a class='place__link' href='https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy' target='_blank'>National Geographic</a>
@@ -87,10 +89,10 @@
                             в Мурманск.
                         </p>
                     </div>
-                </div>
-                <div class='place'>
+                </article>
+                <article class='place'>
                     <h2 class='place__title'>Алтай</h2>
-                    <img class='place__image' src='./sprint-3-images/place-altai.jpg' alt='Картинка'>
+                    <img class='place__image' src='./sprint-3-images/place-altai.jpg' alt='Алтай'>
                     <div class='place__website'>
                         <p class='place__url-heading'>URL</p>
                         <a class='place__link' href='https://www.facebook.com/vera.bashmakova/posts/10156011613718822' target='_blank'>Facebook</a>
@@ -105,10 +107,10 @@
                             а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
                     </div>
-                </div>
-                <div class='place'>
+                </article>
+                <article class='place'>
                     <h2 class='place__title'>Зимний Байкал</h2>
-                    <img class='place__image' src='./sprint-3-images/place-winter-baikal.jpg' alt='Картинка'>
+                    <img class='place__image' src='./sprint-3-images/place-winter-baikal.jpg' alt='Байкал'>
                     <div class='place__website'>
                         <p class='place__url-heading'>URL</p>
                         <a class='place__link' href='https://vk.com/baikalmile' target='_blank'>https://vk.com/baikalmile</a>
@@ -120,10 +122,10 @@
                         </p>
                         <p class='place__paragraph'>Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
-                </div>
-                <div class='place'>
+                </article>
+                <article class='place'>
                     <h2 class='place__title'>Карелия</h2>
-                    <img class='place__image' src='./sprint-3-images/place-karelia.jpg' alt='Картинка'>
+                    <img class='place__image' src='./sprint-3-images/place-karelia.jpg' alt='Карелия'>
                     <div class='place__website'>
                         <p class='place__url-heading'>URL</p>
                         <a class='place__link' href='http://vodlozero.ru' target='_blank'>http://vodlozero.ru/</a>
@@ -131,7 +133,7 @@
                     <div class='place__paragraphs'>
                         <p class='place__paragraph'>Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                     </div>
-                </div>
+                </article>
             </section>
  
             <section class='cover'>
@@ -145,19 +147,19 @@
         <footer class='footer'>
             <nav>
                 <ul class='footer__column-links'>
-                    <li>
+                    <li class='footer__item'>
                        <a class='footer__link' href='https://yandex.ru/maps' target='_blank'>Карты</a>
                     </li>
-                    <li>
+                    <li class='footer__item'>
                        <a class='footer__link' href='https://yandex.ru/pogoda' target='_blank'>Погода</a>
                     </li>
-                    <li>
+                    <li class='footer__item'>
                        <a class='footer__link' href='https://rasp.yandex.ru' target='_blank'>Расписание</a>
                     </li>
-                     <li>
+                     <li class='footer__item'>
                        <a class='footer__link' href='https://calendar.yandex.ru' target='_blank'>Календарь</a>
                     </li>
-                    <li>
+                    <li class='footer__item'>
                        <a class='footer__link' href='https://travel.yandex.ru' target='_blank'>Путешествия</a>
                     </li>
                 </ul>

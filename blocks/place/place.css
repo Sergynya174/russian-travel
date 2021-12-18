@@ -12,14 +12,14 @@
     }    
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 986px) {
     .place{
         max-width: 720px;
         grid-column-gap: 28px;
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 730px) {
     .place{
         max-width: 320px;
         grid-row-gap: 32px;

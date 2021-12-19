@@ -13,3 +13,10 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+
+@media screen and (max-width: 1152px) {
+    .page{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

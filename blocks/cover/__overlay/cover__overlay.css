@@ -1,8 +1,6 @@
 .cover__overlay{
     min-height: 740px;
     text-decoration: none;
-    background: url(../../../sprint-3-images/cover-trains.jpg);
-    background-size: cover;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -11,6 +9,8 @@
     position: relative;
     padding: 0;
     z-index: 1;
+    background: url(../../../sprint-3-images/cover-trains.jpg);
+    background-size: cover;
     background-position: center;
 }
 

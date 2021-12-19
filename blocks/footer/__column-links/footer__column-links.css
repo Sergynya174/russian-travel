@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 640px) {
     .footer__column-links{
         flex-direction: column;
         margin: 0 0 16px 0;

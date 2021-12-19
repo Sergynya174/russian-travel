@@ -2,5 +2,17 @@
     max-width: 984px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 896px) {
+    .lead{
+       margin: 0 auto 88px;
+    }    
+}
+
+@media screen and (max-width: 730px) {
+    .lead{
+        margin: 0 auto 64px;
+    }    
 }

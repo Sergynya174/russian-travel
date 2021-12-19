@@ -5,14 +5,14 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1080px) {
     .footer{
-        max-width: 1024px;
+        max-width: 928px;
         margin: 92px 24px 0;
     }    
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 768px) {
     .footer{
         max-width: 768px;
         margin: 88px 24px 0;

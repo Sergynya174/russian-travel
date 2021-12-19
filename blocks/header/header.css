@@ -5,21 +5,21 @@
     margin-bottom: 56px;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1080px) {
     .header{
         max-width: 928px;
-        margin: 0 0 48px;
+        margin: 0 48px 48px;
     }    
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 768px) {
     .header{
         max-width: 720px;
         margin: 0 24px 48px;
     }    
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 345px) {
     .header{
         max-width: 288px;
         margin: 0 16px 48px;

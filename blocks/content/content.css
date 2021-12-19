@@ -3,7 +3,6 @@
     grid-row-gap: 92px;
     max-width: 1280px;
     min-width: 320px;
-    justify-content: center;
 }
 
 @media screen and (max-width: 896px) {

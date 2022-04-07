@@ -14,4 +14,4 @@
 * Позиционирование
 * Псевдоклассы
 
-https://sergynya174.github.io/russian-travel/
+### [Ссылка проекта](https://sergynya174.github.io/russian-travel/)
